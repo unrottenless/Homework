@@ -17,3 +17,16 @@ print(Mr)
 #set
 ноты = {'до', 'ре', 'ми', 'фа', 'соль', 'ля', 'си'}
 print(ноты)
+
+# UPD8
+avaible = list (weapon)
+print(avaible)
+
+avaible_2 = tuple (покупки)
+print(type(avaible_2))
+
+for notes in ноты:
+    print(notes)
+
+H2 = Mr.setdefault('H', 1.0)
+print(H2*2)
